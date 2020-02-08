@@ -1,3 +1,159 @@
 <html>
-Put Apply Page Here
+
+<head>
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="images/favicon.png" sizes="32x32">
+  <link rel="icon" href="images/favicon.png" sizes="192x192">
+  <link rel="apple-touch-icon-precomposed" href="/images/favicon.png">
+  <meta name="msapplication-TileImage" content="/images/favicon.png">
+</head>
+
+<body>
+  <div id="header">
+    <div id="directly-logo">
+      <span class="poweredby">Powered by</span>
+      <img src="images/yellow-logo.svg" alt="Directly Logo" width="144" class="custom-logo" role="img">
+    </div>
+    <div class="directly-right-nav">
+      <div class="textwidget custom-html-widget">
+        <div class="social-icons">
+          <a class="login-link" href="https://www.directly.com/login/auth?format=html" uk-icon="icon: twitter; ratio: 1.5" alt="Twitter Link" rel="noreferrer noopener">
+            LOGIN
+          </a><a class="uk-margin-medium-left uk-icon" href="https://twitter.com/directly" uk-icon="icon: twitter; ratio: 1.5" alt="Twitter Link" target="_blank" rel="noreferrer noopener"><svg width="30" height="30" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M19,4.74 C18.339,5.029 17.626,5.229 16.881,5.32 C17.644,4.86 18.227,4.139 18.503,3.28 C17.79,3.7 17.001,4.009 16.159,4.17 C15.485,3.45 14.526,3 13.464,3 C11.423,3 9.771,4.66 9.771,6.7 C9.771,6.99 9.804,7.269 9.868,7.539 C6.795,7.38 4.076,5.919 2.254,3.679 C1.936,4.219 1.754,4.86 1.754,5.539 C1.754,6.82 2.405,7.95 3.397,8.61 C2.79,8.589 2.22,8.429 1.723,8.149 L1.723,8.189 C1.723,9.978 2.997,11.478 4.686,11.82 C4.376,11.899 4.049,11.939 3.713,11.939 C3.475,11.939 3.245,11.919 3.018,11.88 C3.49,13.349 4.852,14.419 6.469,14.449 C5.205,15.429 3.612,16.019 1.882,16.019 C1.583,16.019 1.29,16.009 1,15.969 C2.635,17.019 4.576,17.629 6.662,17.629 C13.454,17.629 17.17,12 17.17,7.129 C17.17,6.969 17.166,6.809 17.157,6.649 C17.879,6.129 18.504,5.478 19,4.74">
+              </path>
+            </svg></a><a class="uk-margin-small-left uk-margin-small-right uk-icon" href="https://www.linkedin.com/company/2830004" uk-icon="icon: linkedin; ratio: 1.5" alt="LinkedIn Link" target="_blank" rel="noreferrer noopener"><svg width="30"
+              height="30" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.77,17.89 L5.77,7.17 L2.21,7.17 L2.21,17.89 L5.77,17.89 L5.77,17.89 Z M3.99,5.71 C5.23,5.71 6.01,4.89 6.01,3.86 C5.99,2.8 5.24,2 4.02,2 C2.8,2 2,2.8 2,3.85 C2,4.88 2.77,5.7 3.97,5.7 L3.99,5.7 L3.99,5.71 L3.99,5.71 Z"></path>
+              <path
+                d="M7.75,17.89 L11.31,17.89 L11.31,11.9 C11.31,11.58 11.33,11.26 11.43,11.03 C11.69,10.39 12.27,9.73 13.26,9.73 C14.55,9.73 15.06,10.71 15.06,12.15 L15.06,17.89 L18.62,17.89 L18.62,11.74 C18.62,8.45 16.86,6.92 14.52,6.92 C12.6,6.92 11.75,7.99 11.28,8.73 L11.3,8.73 L11.3,7.17 L7.75,7.17 C7.79,8.17 7.75,17.89 7.75,17.89 L7.75,17.89 L7.75,17.89 Z">
+              </path>
+            </svg></a><a class="uk-icon uk-icon-fb" href="https://www.facebook.com/askdirectly" uk-icon="icon: facebook;ratio: 1.5" alt="Facebook Link" target="_blank" rel="noreferrer noopener"><svg width="30" height="30" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M11,10h2.6l0.4-3H11V5.3c0-0.9,0.2-1.5,1.5-1.5H14V1.1c-0.3,0-1-0.1-2.1-0.1C9.6,1,8,2.4,8,5v2H5.5v3H8v8h3V10z"></path>
+            </svg></a> </div>
+      </div>
+    </div>
+  </div>
+  <div id="content">
+    <div id="panel1" class="top-panel panel">
+      <div class="p1-left left-col">
+        <H1>Become a<br />GitHub Expert</H1>
+        <H2>Help the GitHub community and earn extra money for your great advice.</H2>
+        <a href="https://github.directly.com/apply/skillTest" class="cta">Apply Now</a>
+      </div>
+      <div class="p1-right right-col">
+        <svg class="octicon octicon-mark-github v-align-middle" height="200" width="200" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+      </div>
+    </div>
+    <div id="panel2" class="middle-panel panel">
+      <div class="p2-left left-col embed-responsive embed-responsive-16by9">
+          <iframe lass="embed-responsive-item" src="https://player.vimeo.com/video/180912063" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+      <div class="p2-right right-col">
+        <h3>
+          Why apply to be a GitHub Expert
+        </h3>
+        <div class="std-txt">
+          <p>GitHub and Directly are partnering to create a new, innovative way of providing high-quality answers to user support questions. Directly's platform connects Github power users (or experts, as we like to call them) to respond to real user questions and earn cash rewards in the process.</p>
+          <p>We are on the lookout for qualified GitHub experts who want to participate in the Directly GitHub network. The application below will test an applicant's grammar, presentation, and extensive knowledge of the GitHub platform. Once approved and onboarding is complete, experts can select which GitHub support questions they want to answer. The best part is, experts can answer questions on their own schedules, whenever it's convenient for them!</p>
+        </div>
+            </div>
+
+    </div>
+    <div id="panel3" class="bottom-panel panel angle--bottom-left">
+      <div id="agent-quote">
+      <blockquote>
+One of the most amazing things about working in Directly is It has given me a platform to share the knowledge that I've gained over the years in more flexible and more amazing ways.
+<cite>Andre Da Costa, Windows Expert</cite>
+</blockquote>
+</div>
+    </div>
+    <div id="panel4" class="bottom-panel panel">
+      <div>
+      <h3>Perks of Being an Expert</h3>
+      <div class="perk-card">
+        <span class="perk-title">Earn Rewards</span>
+        <span class="perk-txt">Earn rewards for providing high-quality responses and assisting other experts.</span>
+      </div>
+      <div class="perk-card">
+        <span class="perk-title">Improved Product Knowledge</span>
+        <span class="perk-txt">Gain valuable experience answering real customer support questions.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      </div>
+      <div class="perk-card">
+        <span class="perk-title">Make People Happy</span>
+        <span class="perk-txt">Support the community by answering questions and getting users up and running again.</span>
+      </div>
+      <div class="perk-card">
+        <span class="perk-title">Easy Accessibility</span>
+        <span class="perk-txt">Receive alerts and respond on your smartphone, at home, or anywhere with an internet connection.</span>
+      </div>
+    </div>
+    </div>
+      <div id="panel5" class="bottom-panel panel">
+      <div class="p5-left left-col">
+        <section class="stage">
+  <figure class="ball">
+    <span class="shadow"></span>
+    <span class="directly-d"></span>
+  </figure>
+</section>
+      </div>
+      <div class="p5-right right-col">
+        <h3>The Experts</h3>
+        On-demand support is powered by experts using Directly the platform. As customers ask questions, Directly matches them to the right experts via a mobile or desktop alert. Experts work together to provide support and earn rewards, as well as increase their reputation for the most effective answers.
+        <div class="expert-spotlight"><a href="https://www.directly.com/blog/?category=expert-spotlight" >Expert Spotlight →</a></div>
+
+      </div>
+
+    </div>
+    <div id="panel6" class="bottom-panel panel">
+      <div class="center">
+        <h1>Have What It Takes To Be An Expert?
+        </h1>
+        <a href="https://github.directly.com/apply/skillTest" class="cta">Apply Now</a>
+      </div>
+    </div>
+  </div>
+    <div id="footer">
+      <div id="directly-logo">
+        <span class="poweredby">Powered by</span>
+        <img src="images/yellow-logo.svg" alt="Directly Logo" width="144" class="custom-logo" role="img">
+      </div>
+      <div id="menu-footer-div" class="directly-middle-nav">
+        <ul id="menu-footer" class="uk-subnav">
+        <li class="menu-item"><a href="https://directly.com/trust/">Trust</a><p class="menu-title"><a href="https://directly.com/trust/"><span class="menu-description"> </span></a></p></li>
+        <li class="menu-item"><a href="https://directly.com/legal/">Legal</a><p class="menu-title"><a href="https://directly.com/legal/"><span class="menu-description"> </span></a></p></li>
+        <li class="menu-item"><a href="https://directly.com/legal/privacy/">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="directly-right-nav">
+        <div class="textwidget custom-html-widget">
+          <div class="social-icons">
+          <a class="uk-margin-medium-left uk-icon" href="https://twitter.com/directly" uk-icon="icon: twitter; ratio: 1.5" alt="Twitter Link" target="_blank" rel="noreferrer noopener"><svg width="30" height="30" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19,4.74 C18.339,5.029 17.626,5.229 16.881,5.32 C17.644,4.86 18.227,4.139 18.503,3.28 C17.79,3.7 17.001,4.009 16.159,4.17 C15.485,3.45 14.526,3 13.464,3 C11.423,3 9.771,4.66 9.771,6.7 C9.771,6.99 9.804,7.269 9.868,7.539 C6.795,7.38 4.076,5.919 2.254,3.679 C1.936,4.219 1.754,4.86 1.754,5.539 C1.754,6.82 2.405,7.95 3.397,8.61 C2.79,8.589 2.22,8.429 1.723,8.149 L1.723,8.189 C1.723,9.978 2.997,11.478 4.686,11.82 C4.376,11.899 4.049,11.939 3.713,11.939 C3.475,11.939 3.245,11.919 3.018,11.88 C3.49,13.349 4.852,14.419 6.469,14.449 C5.205,15.429 3.612,16.019 1.882,16.019 C1.583,16.019 1.29,16.009 1,15.969 C2.635,17.019 4.576,17.629 6.662,17.629 C13.454,17.629 17.17,12 17.17,7.129 C17.17,6.969 17.166,6.809 17.157,6.649 C17.879,6.129 18.504,5.478 19,4.74">
+                </path>
+              </svg></a><a class="uk-margin-small-left uk-margin-small-right uk-icon" href="https://www.linkedin.com/company/2830004" uk-icon="icon: linkedin; ratio: 1.5" alt="LinkedIn Link" target="_blank" rel="noreferrer noopener"><svg width="30"
+                height="30" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.77,17.89 L5.77,7.17 L2.21,7.17 L2.21,17.89 L5.77,17.89 L5.77,17.89 Z M3.99,5.71 C5.23,5.71 6.01,4.89 6.01,3.86 C5.99,2.8 5.24,2 4.02,2 C2.8,2 2,2.8 2,3.85 C2,4.88 2.77,5.7 3.97,5.7 L3.99,5.7 L3.99,5.71 L3.99,5.71 Z"></path>
+                <path
+                  d="M7.75,17.89 L11.31,17.89 L11.31,11.9 C11.31,11.58 11.33,11.26 11.43,11.03 C11.69,10.39 12.27,9.73 13.26,9.73 C14.55,9.73 15.06,10.71 15.06,12.15 L15.06,17.89 L18.62,17.89 L18.62,11.74 C18.62,8.45 16.86,6.92 14.52,6.92 C12.6,6.92 11.75,7.99 11.28,8.73 L11.3,8.73 L11.3,7.17 L7.75,7.17 C7.79,8.17 7.75,17.89 7.75,17.89 L7.75,17.89 L7.75,17.89 Z">
+                </path>
+              </svg></a><a class="uk-icon uk-icon-fb" href="https://www.facebook.com/askdirectly" uk-icon="icon: facebook;ratio: 1.5" alt="Facebook Link" target="_blank" rel="noreferrer noopener"><svg width="30" height="30" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M11,10h2.6l0.4-3H11V5.3c0-0.9,0.2-1.5,1.5-1.5H14V1.1c-0.3,0-1-0.1-2.1-0.1C9.6,1,8,2.4,8,5v2H5.5v3H8v8h3V10z"></path>
+              </svg></a> </div>
+        </div>
+      </div>
+    </div>
+</body>
 </html>
