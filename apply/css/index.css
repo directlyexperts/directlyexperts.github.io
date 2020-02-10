@@ -163,7 +163,10 @@ a.cta:hover {
 }
 
 #panel6 a.cta:hover {
-  color: #FFF;
+    color: #000 !important;
+    background: #FFCC00 !important;
+    padding: 14px 42px;
+    font-weight: 900;
 }
 
 .left-col, .right-col {
